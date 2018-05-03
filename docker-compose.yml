@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  scanner_cors:
-    build:
-      context: ./cors
+  #scanner_cors:
+  #  build:
+  #    context: ./cors
 
   domain_db:
     build:
