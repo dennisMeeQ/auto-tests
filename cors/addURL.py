@@ -1,6 +1,5 @@
 from datetime import datetime
 
-import lib.dbInitCors
 from lib.dbInitCors import *
 
 u = 'https://mgm-tp.com'

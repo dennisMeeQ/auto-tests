@@ -1,9 +1,6 @@
 from datetime import datetime
 
-import lib.dbInitCors
 from lib.dbInitCors import *
-
-import cors
 from cors import *
 
 def getScan(Host):

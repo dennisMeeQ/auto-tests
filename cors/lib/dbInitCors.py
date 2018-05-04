@@ -1,7 +1,5 @@
-import peewee
 from peewee import *
 
-import lib.common.dbInit
 from lib.common.dbInit import *
 
 class CorsScan(BaseModel):
