@@ -4,8 +4,8 @@ db = MySQLDatabase(
     'scans',
     user='root',
     password='test123',
-    host='127.0.0.1',
-    port=12345)
+    host='domain-db',
+    port=3306)
 
 class BaseModel(Model):
     class Meta:

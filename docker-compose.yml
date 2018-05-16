@@ -1,16 +1,13 @@
 version: '3'
 
 services:
-  #scanner_cors:
-  #  build:
-  #    context: ./cors
-
-  domain_db:
+  domain-db:
     build:
       context: ./mysql
-    ports:
-        - 12345:3306
     environment:
       MYSQL_ROOT_PASSWORD: test123
     volumes:
        - ./mysql/db-data:/var/lib/mysql
+  scanner-cors:
+    build:
+      context: ./cors
